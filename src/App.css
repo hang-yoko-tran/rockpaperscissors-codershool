@@ -1,22 +1,95 @@
+*{
+  font-family: Poppins;
+}
+
 .App {
+  flex: 1;
+  display: flex;
+  min-height: 600px;
+  text-align: center;
+  background-color: #e9ebee;
+}
+.choice-card {
+  flex: 1;
+  display: flex;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  
+  font-size: 3em;
+  padding: 0 40px;
+  font-weight: 300;
+  text-align: center;
+  border-radius: 25px;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid black;
+  background-color: white;
+  justify-content: space-around;
+  box-shadow: 2px 5px 9px 0 #c4c8ce;
+  height: 500px;
+  width: 100px;
+}
+img {
+  width: 250px;
+  height: 250px;
+}
+h3 {
+  font-weight: bold;
+}
+.winner {
+  color: #20BD95;
+  border: 2px solid #20BD95;
+}
+.loser {
+  color: #E64623;
+  border: 2px solid #E64623;
+}
+
+.fab {
+  color: black;
+  font-size: 24px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.footer-size {
+  height: 50px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.fa-gamepad {
+  font-size: 38px;
+  color: #20BD95;
+}
+
+.nav-link {
+  color: #20BD95;
+}
+
+.btn-choices {
+  background-color: whitesmoke;
+  margin: 50px 20px 50px 20px; 
+}
+
+h2 {
+  margin-top: 300px;
+}
+
+li {
+  text-align: left;
+  margin: 20px;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.right-side {
+  background-color: black;
+}
+
+h4 {
+  color: white;
+  font-weight: bold;
 }
